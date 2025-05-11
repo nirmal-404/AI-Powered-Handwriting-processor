@@ -1,0 +1,22 @@
+Creating a virtual environment
+    calc-be> python -m venv .venv
+
+Activate the virtual environment
+    .venv\Scripts\Activate
+
+Install the required packages
+    pip install fastapi Pillow uvicorn pydantic google.generativeai python-dotenv 
+
+Run
+    python .\main.py
+
+Getting gemini api key
+    goto google cloud console 
+    create a new project
+
+    goto google ai studio
+    create api key for the project
+
+
+
+
